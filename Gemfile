@@ -25,6 +25,9 @@ gem 'jbuilder', '~> 1.2'
 # Twitter Bootstrap
 gem 'bootstrap-sass', github: 'thomas-mcdonald/bootstrap-sass', branch: '3'
 
+# Devise used for user authentication and log-in
+gem "devise", "~> 3.1.1"
+
 group :development, :test do
 	gem 'sqlite3'
 end
